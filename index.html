@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Git user search API App</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet'  type='text/css'>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+		<div class="container">
+
+			<div class="page-header row">
+				<div class="col-md-12">
+					<h1>Git User Search App</h1>
+				</div>
+			</div>
+			
+			<div class="panel panel-primary">
+				<div class="panel-body">
+			    	Look For An User
+			  	</div>
+			  	<div class="panel-footer">
+					<input>
+					<button>Search</button>
+			  	</div>
+			</div>
+
+			<div class="panel panel-primary">
+				<div class="panel-body">
+			    	Users Found - Select Below:
+			  	</div>
+			  	<div class="panel-footer">
+					<select id="users"></select>
+			  	</div>
+			</div>
+
+			<div class="panel panel-primary">
+				<div class="panel-body">
+			    	Repos Found
+			  	</div>
+			  	<div class="panel-footer">
+					<select id="repos"></select>
+			  	</div>
+			</div>
+
+			<div class="panel panel-primary">
+				<div class="panel-body">
+			    	Repo Folders Found
+			  	</div>
+			  	<div class="panel-footer">
+					<select id="folders"></select>
+			  	</div>
+			</div>
+
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
